@@ -31,8 +31,8 @@ const Contact = () => {
     {
       icon: <Github className="w-5 h-5" />,
       label: "GitHub",
-      href: "https://github.com/johndoe",
-      username: "@johndoe"
+      href: "https://github.com/tat16555",
+      username: "@tat16555"
     },
     {
       icon: <Linkedin className="w-5 h-5" />,

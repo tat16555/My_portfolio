@@ -21,8 +21,10 @@ const Footer = () => {
               with modern technologies and clean code.
             </p>
             <div className="flex gap-4">
-              <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary">
-                <Github className="w-5 h-5" />
+              <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary" asChild>
+                <a href="https://github.com/tat16555" target="_blank" rel="noopener noreferrer">
+                  <Github className="w-5 h-5" />
+                </a>
               </Button>
               <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-primary">
                 <Linkedin className="w-5 h-5" />

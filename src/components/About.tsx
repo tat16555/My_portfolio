@@ -7,25 +7,25 @@ const About = () => {
     {
       category: "Backend",
       icon: <Server className="w-6 h-6" />,
-      technologies: ["PHP", "Laravel", "Symfony", "CodeIgniter", "Node.js", "Python"],
+      technologies: ["PHP", "Node.js", "Python", "RESTful API"],
       color: "border-primary/30 bg-primary/5"
     },
     {
       category: "Frontend", 
       icon: <Code className="w-6 h-6" />,
-      technologies: ["React", "Vue.js", "TypeScript", "Tailwind CSS", "SASS", "jQuery"],
+      technologies: ["HTML", "CSS", "JavaScript", "Bootstrap 5"],
       color: "border-tech-stack/30 bg-tech-stack/5"
     },
     {
       category: "Database",
       icon: <Database className="w-6 h-6" />,
-      technologies: ["MySQL", "PostgreSQL", "MongoDB", "Redis", "SQLite", "Elasticsearch"],
+      technologies: ["MySQL", "SQL"],
       color: "border-success/30 bg-success/5"
     },
     {
-      category: "DevOps & Cloud",
+      category: "DevOps & Tools",
       icon: <Globe className="w-6 h-6" />,
-      technologies: ["AWS", "Docker", "Linux", "Nginx", "Git", "CI/CD"],
+      technologies: ["Docker", "Docker Compose", "Git", "GitHub", "Composer", "npm"],
       color: "border-warning/30 bg-warning/5"
     }
   ];
